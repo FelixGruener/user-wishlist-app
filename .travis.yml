@@ -17,7 +17,7 @@ deploy:
   env: Myuserwishlistapp-env
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket_name: "multi-container-wishlist-app"
+  bucket_name: "multi-container-wishlist-app2"
   bucket_path: "docker"
   on:
     branch: main
